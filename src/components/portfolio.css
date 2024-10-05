@@ -1,0 +1,92 @@
+.port {
+    background-image: url("../../public/asets/homeherobg_dsk.svg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 42rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem; 
+  }
+  
+  .achi {
+    font-weight: 700;
+  }
+  
+  .portfolio-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+ 
+  #portfolio {
+    overflow: hidden;
+    padding-bottom: 2rem;
+  }
+  
+  @media (max-width: 576px) {
+    .port {
+      padding: 1rem;
+    }
+  
+    .card {
+      margin-bottom: 2rem;
+    }
+  
+    #portfolio {
+      margin-bottom: 2rem;
+    }
+  }
+  @media (min-width: 412px) {
+
+ 
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+  /* For small mobile devices */
+@media (max-width: 480px) {
+  .port{
+    height: 79em;
+  }
+  .portfolio-image {
+    /* max-height: 500px;  */
+    height: 100vh;
+    /* object-fit: cover;  */
+  }
+
+  .card {
+    margin: 0.5rem; 
+  }
+  
+  .achi {
+    /* font-size: 0.875rem;  */
+  }
+}
+
+/* For medium mobile devices */
+@media (min-width: 481px) and (max-width: 768px) {
+  .port{
+    height: 89em;
+  }
+  .portfolio-image {
+    /* max-height: 500px;  */
+    height: 100vh;
+    /* object-fit: cover;  */
+  }
+
+  .card {
+    margin: 0.5rem; 
+  }
+  
+  .achi {
+    /* font-size: 0.875rem;  */
+  }
+}

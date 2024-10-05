@@ -1,0 +1,190 @@
+.card {
+    /* border: 1px solid #39A7FF; */
+    /* border-radius: 5px; */
+    /* display: flex;
+    justify-content: center; */
+    /* padding: 2rem; */
+    margin: 2rem;
+  }
+  .my{
+    /* background-image: url("../../public/asets/tiranga.jpg"); */
+    /* background-image: url("../../public/asets/black.webp" ) ; */
+    /* background-image: url("../../public/asets/tiranga2.webp" ); */
+    /* background-image: url("../../public/asets/lakdi.jpg" ); */
+    /* background-image: url("../../public/asets/homeherobg_dsk.svg"); */
+    /* background-image: url("../../public/asets/reds.jpg" ); */
+    /* background-image: url("../../public/asets/bg-9-full.jpg" ); */
+    background-image: url("../../public/asets/sky.jpg" );
+
+
+
+    background-size: cover;
+    background-position: center;
+    /* filter: brightness(50%);  */
+    /* height: 400px; */
+  }
+  .card-img-top {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 2rem; */
+    
+    width: 100%; 
+    height: 30vh; 
+    /* object-fit: cover; */
+  }
+  .card-img-tops {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   margin-left: 7rem;
+   border-radius: 15rem;
+    /* margin-left: 2rem; */
+    /* margin-top: 2rem; */
+    
+    width: 48%; 
+    height: 27vh; 
+    /* object-fit: cover; */
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .icon-box {
+    /* border: 1px solid #3AA6B9; */
+    border-radius: 15rem;
+    padding: 10px;
+    margin: 10px;
+    transition: color 0.3s;
+    /* background-color: #00235B; */
+    /* background-color:#007bff ; */
+    /* color: #FDF5CA; */
+     color: #0d1b2a;
+  }
+  
+  .icon-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    /* background-color: black; */
+  }
+  
+  .icon-box p {
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+  
+  .icon-box:hover p {
+    /* color: #3AA6B9; */
+    /* color: red; */
+    /* color: blanchedalmond; */
+    color: #fff;
+    cursor: pointer;
+  }
+  .janm{
+    /* color: #3AA6B9; */
+    font-weight: 800;
+  }
+  .day{
+    /* background: #D9D7F1; */
+    /* background-color: #FDF5CA; */
+    /* background: #F9F9F9; */
+    /* background-color: #FD5D5D; */
+    /* background-color: #4D77FF; */
+    /* background-color: #F7F7F7; */
+    border-radius: 5px;
+  }
+  .rims{
+    /* background-color: #FDF5CA;
+     */
+     /* background-color: #F5F7B2; */
+  }
+
+  /* services.css */
+.service-card {
+  border: none; /* Remove card border */
+  box-shadow: none; /* Remove card shadow */
+}
+
+.service-img {
+  height: 100px; /* Set the desired height */
+  width: 100px; /* Set the desired width */
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Ensure the image is a block-level element */
+}
+
+.card-body {
+  text-align: center; /* Center text inside the card body */
+}
+
+.vgyan{
+  font-weight: 600;
+}
+
+.singh{
+  font-weight: 600;
+}
+
+
+@media (min-width: 412px) {
+  /* Center the image in the "My Social Work" section */
+
+}
+
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+  .my .text-center img {
+    width: 100%; /* Ensure the image is responsive */
+    height: auto;
+  }
+
+  /* Center the image in the "Our Politics Carrier" section */
+  .service-card img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Center align the card text */
+  .service-card .text-center {
+    text-align: center;
+  }
+
+    /* Center the images in the "My Social Work" section */
+    .my .icon-box img {
+      display: block;
+      margin: 0 auto; /* Center images */
+    }
+    .a-me{
+      display: flex;
+      justify-content: center;
+    }
+}
+
+/* For medium mobile devices */
+@media (min-width: 481px) and (max-width: 768px) {
+  .my .text-center img {
+    width: 100%; /* Ensure the image is responsive */
+    height: auto;
+  }
+
+  /* Center the image in the "Our Politics Carrier" section */
+  .service-card img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Center align the card text */
+  .service-card .text-center {
+    text-align: center;
+  }
+
+    /* Center the images in the "My Social Work" section */
+    .my .icon-box img {
+      display: block;
+      margin: 0 auto; /* Center images */
+    }
+}
+
+
+

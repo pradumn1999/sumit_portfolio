@@ -1,0 +1,59 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Custom styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.container {
+  padding: 30px 0;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  h2 {
+    margin-top: 30px;
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .container {
+    padding: 20px 10px; /* Reduce padding for mobile screens */
+  }
+
+  body {
+    font-size: 14px; /* Adjust base font size */
+  }
+
+  img {
+    max-width: 100%; /* Ensure images don't overflow */
+    height: auto;
+    display: block;
+  }
+
+  /* General fix to prevent overflow of content */
+  * {
+    box-sizing: border-box; /* Ensure padding/margin doesn't cause overflow */
+  }
+
+  /* If you have any large sections or divs causing scrolling */
+  .large-content {
+    width: 100%; /* Ensure the content is not larger than the screen */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+}

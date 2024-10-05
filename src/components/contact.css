@@ -1,0 +1,30 @@
+/* appointmentForm.css */
+.appointment-form-container {
+    background-image: url('../../public/asets/image.png'); /* Path to your background image */
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    padding: 40px; /* Adjust padding as needed */
+    border-radius: 8px; /* Optional: adds rounded corners to the container */
+    color: #fff; /* Ensure text is readable against the background */
+  }
+  
+  .form-control, .btn-primary {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for inputs and button for readability */
+    border: 1px solid #ced4da; /* Border for inputs */
+  }
+  
+  .form-control::placeholder {
+    color: #6c757d; /* Placeholder text color */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Button color */
+    border-color: #007bff; /* Button border color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Button hover color */
+    border-color: #004085; /* Button hover border color */
+  }
+  

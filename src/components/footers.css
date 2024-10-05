@@ -1,0 +1,229 @@
+
+.bg-red {
+    /* width: 100%; */
+    /* background-color: #65B741; */
+    /* background-color: #D5ED9F; */
+    /* background: #C3FF93; */
+    /* background: #90D26D; */
+    /* background-color: #E85C0D; */
+    background-color:  #14141F;
+
+  }
+  
+  .hover-text:hover {
+    color: #1ccd45;
+    cursor: pointer;
+  }
+  .hover-text {
+    transition: color 0.3s ease;
+  }
+  
+  .black-dot::before {
+    content: '\2022'; 
+    color: #131842;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .contact-section p {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-section p:hover {
+    
+    cursor: pointer;
+    color: #14d648;
+  }
+  
+  
+  .social-icons-container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 12rem; */
+  }
+  .social-icons{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+  margin-top: 1rem;
+  }
+
+  
+.footer h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  color: #131842;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+
+.footer h2:hover::after {
+  color: #131842;
+  cursor: pointer;
+}
+
+.computer{
+  color: #FFC700;
+  /* margin-bottom: 0%; */
+}
+.ed{
+  /* margin-top: 0.1rem; */
+  /* margin-bottom: 1rem; */
+  /* background-color: red; */
+  height: 5vh;
+  
+}
+.connect{
+  margin-top: 1rem;
+}
+
+.opd{
+  /* padding-top: 1rem; */
+  text-decoration: underline 2px solid #131842;
+  
+}
+.opds{
+  height: 0.5vh;
+  width: 90%;
+  background: #131842;
+  margin-bottom: 1rem;
+}
+.opds2{
+  height: 0.5vh;
+  width: 60%;
+  background: #131842;
+  margin-bottom: 1rem;
+}
+.opds3{
+  height: 0.5vh;
+  width: 45%;
+  background: #131842;
+  margin-bottom: 1rem;
+}
+
+
+/* src/footers.css */
+
+/* Styles for all screen sizes */
+.footer {
+  /* background-color: #dc3545; */
+  color: white;
+  padding: 20px 0;
+}
+
+.social-icons a {
+  margin-right: 10px; /* Spacing between social icons */
+  color: white;
+}
+
+/* Responsive styles for mobile screens (412px wide) */
+@media (min-width: 412px) {
+
+}
+
+
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+  .connect {
+    text-align: left; 
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between; /* Spread the social icons evenly */
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    margin-right: 0; /* Remove right margin for icons */
+  }
+
+  .footer .row {
+    flex-direction: column; /* Stack the content vertically */
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+
+  .footer .col-2, .footer .col-5, .footer .col-1 {
+    width: 62%; 
+    padding-left: 1.5rem;
+    
+  }
+  .mt-1{
+    /* padding-left: 0.8rem; */
+  }
+  .footer-rights {
+    padding-left: 0.8rem;
+    /* text-align: left;  */
+  }
+
+  .face{
+    font-size: 1.5rem !important;
+
+  }
+
+}
+
+/* For medium mobile devices */
+@media (min-width: 481px) and (max-width: 768px) {
+  .connect {
+    /* text-align: left;  */
+    width: 100%;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between; /* Spread the social icons evenly */
+    margin-top: 10px;
+    /* font-size: 12px !important; */
+  }
+
+  .social-icons a {
+    margin-right: 0; /* Remove right margin for icons */
+  }
+
+  .footer .row {
+    flex-direction: column; /* Stack the content vertically */
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+
+  .footer .col-2, .footer .col-5, .footer .col-1 {
+    width: 30%; 
+    padding-left: 3rem;
+    
+  }
+  .mt-1{
+    /* padding-left: 0.8rem; */
+  }
+  .footer-rights {
+    padding-left: 0.8rem;
+    /* text-align: left;  */
+  }
+  .face{
+    font-size: 1.5rem !important;
+
+  }
+  .contact-section{
+    width: 40%;
+  }
+}

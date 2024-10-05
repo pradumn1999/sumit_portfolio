@@ -1,0 +1,124 @@
+
+
+
+.lightee{
+    /* background-color: #90D26D; */
+    /* background-color: #E85C0D; */
+     background-color:  #3d3ddb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    color: #fff;
+
+}
+
+.ms-auto{
+    cursor: pointer;
+}
+
+
+.lightee .navbar-brand,
+.lightee .nav-link {
+  color: white !important; /* Make the text color white */
+}
+
+.lightee .nav-link:hover {
+  color: #f8f9fa !important; /* Optional: Change the hover color */
+}
+
+
+.bgs{
+  background-color:  #14141F;
+
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+ 
+}
+
+.nav-item.clr-whites:hover {
+  color: #ffcc00; /* Change to your desired hover color */
+}
+
+.btn-primary {
+  padding: 8px 16px;
+  font-size: 16px;
+}
+.font{
+  font-weight: 700;
+  font-size: 20px;
+  color: #F97300;
+
+}
+/* Header.css */
+/* Header.css */
+.navbar {
+  transition: top 0.5s; /* Smooth transition for the fixed position */
+}
+
+.navbar-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.dropdown-menu {
+  background-color:green;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  color: red;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.ok{
+  font-weight: 700;
+  /* color: #F97300; */
+  color: #fff;
+
+}
+.clr-whites{
+  color: #fff;
+}
+.btn{
+  /* background-color:#14141F; */
+  background-color: #c7cbd7;
+  border-radius: 2rem;
+}
+
+/* Custom Toggler for White Hamburger Icon */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+ .bgs{
+  /* height: 13vh !important; */
+ }
+ .sumit-logo{
+  display: flex;
+  /* margin-bottom: 1rem !important; */
+  /* width: 50% !important; */
+  height: 10vh !important;
+  font-size: 1rem;
+ }
+}
+
+/* For medium mobile devices */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* CSS rules for medium screens */
+}

@@ -1,0 +1,53 @@
+*{
+    /* background-color: #CAF4FF; */
+    }
+    .photo{
+    /* background-color: #CAF4FF; */
+    
+    /* background-image: url("../../public/asets/black.webp" ) ; */
+    /* background-image: url("../../public/asets/tiranga2.webp" ); */
+    background-image: url("../../public/asets/lakdi.jpg" );
+    /* background-image: url("../../public/asets/homeherobg_dsk.svg"); */
+    /* background-image: url("../../public/asets/reds.jpg" ); */
+    /* background-image: url("../../public/asets/bg-9-full.jpg" ); */
+    /* background-image: url("../../public/asets/sky.jpg" ); */
+    background-size: cover;
+    background-position: center;
+    /* filter: brightness(50%); */
+    width: 100%;
+    height: 42rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    }
+    .h-50{
+        height: 45vh !important;
+        background-color: aqua;
+        border-radius: 1rem;
+    }
+    .online{
+        font-weight: 700;
+    }
+    .online:hover{
+        color: #3AA6B9;
+        cursor: pointer;
+    }
+
+    @media (min-width: 412px){
+        
+      }
+
+
+      /* For small mobile devices */
+@media (max-width: 480px) {
+    .ps{
+        padding-left: 1.5rem;
+    }
+  }
+  
+  /* For medium mobile devices */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .ps{
+        padding-left: 1.5rem;
+    }
+  }
+  
